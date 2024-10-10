@@ -309,7 +309,7 @@ async function alts(ACCOUNT_TOKEN, CHANNEL_ID) {
     client.on('ready', () => {
         console.log(`Logged in as ${client.user.tag}`);
         if (autostart) {
-            // setup();
+            intro();
         }
     });
 
