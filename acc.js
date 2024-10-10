@@ -114,18 +114,18 @@ async function alts(ACCOUNT_TOKEN, CHANNEL_ID) {
         x += getRandomDelay();
         setTimeout(() => sendMessage("~train intel"), x);
         x += getRandomDelay();
-        setTimeout(() => sendHMessage("~hunt"), x);
+        setTimeout(() => sendMessage("~hunt"), x);
         x += getRandomDelay();
         setTimeout(hunt1, x);
     }
 
     function hunt1() {
         let x = 0;
-        setTimeout(() => sendHMessage("~hunt"), x);
+        setTimeout(() => sendMessage("~hunt"), x);
 
         for (let i = 0; i < 34; i++) {
             x += getHuntDelay();
-            setTimeout(() => sendHMessage("~hunt"), x);
+            setTimeout(() => sendMessage("~hunt"), x);
         }
 
         x += getRandomDelay() + 3000;
@@ -157,7 +157,7 @@ async function alts(ACCOUNT_TOKEN, CHANNEL_ID) {
         x += getRandomDelay();
         setTimeout(() => sendMessage("~train intel"), x);
         x += getRandomDelay();
-        setTimeout(() => sendHMessage("~hunt"), x);
+        setTimeout(() => sendMessage("~hunt"), x);
         x += getRandomDelay();
         setTimeout(hunt2, x);
     }
@@ -166,7 +166,7 @@ async function alts(ACCOUNT_TOKEN, CHANNEL_ID) {
         let x = 0;
         for (let i = 0; i < 34; i++) {
             x += getHuntDelay();
-            setTimeout(() => sendHMessage("~hunt"), x);
+            setTimeout(() => sendMessage("~hunt"), x);
         }
 
         x += getRandomDelay() + 3000;
@@ -270,11 +270,6 @@ async function alts(ACCOUNT_TOKEN, CHANNEL_ID) {
     function test() {
         let x = 0;
         setTimeout(() => sendMessage("Working"), x);
-    }
-
-    function setup() {
-        let x = 0;
-        setTimeout(() => sendMessage("~fund allmoney"), x);
     }
 
     // Display a fancy startup banner and bot status
