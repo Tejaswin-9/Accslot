@@ -16,7 +16,7 @@ async function alts(ACCOUNT_TOKEN, CHANNEL_ID) {
     const autostart = true;
 
     // Random delay generator for general actions (6 to 9 seconds)
-    function getRandomDelay(min = 6000, max = 8000) {
+    function getRandomDelay(min = 7000, max = 8000) {
         return Math.floor(Math.random() * (max - min + 1)) + min;
     }
 
