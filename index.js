@@ -49,6 +49,10 @@ async function alts(ACCOUNT_TOKEN, CHANNEL_ID) {
         x += getRandomDelay() + 3000;
         setTimeout(() => sendMessage(`~rollback agil ${agil}`), x);
         x += getRandomDelay() + 3000;
+        setTimeout(() => sendMessage(`~rollback endur ${endur}`), x);
+        x += getRandomDelay() + 3000;
+        setTimeout(() => sendMessage(`~rollback agil ${agil}`), x);
+        x += getRandomDelay() + 3000;
         setTimeout(() => sendMessage(`~rollback energy ${energy}`), x);
         x += getRandomDelay() + 3000;
         setTimeout(() => sendMessage(`~rollback potency ${potency}`), x);
@@ -96,6 +100,10 @@ async function alts(ACCOUNT_TOKEN, CHANNEL_ID) {
         x += getRandomDelay() + 3000;
         setTimeout(() => sendMessage(`~rollback agil ${agil}`), x);
         x += getRandomDelay() + 3000;
+        setTimeout(() => sendMessage(`~rollback endur ${endur}`), x);
+        x += getRandomDelay() + 3000;
+        setTimeout(() => sendMessage(`~rollback agil ${agil}`), x);
+        x += getRandomDelay() + 3000;
         setTimeout(() => sendMessage(`~improve efficiency ${efficiency}`), x);
         x += getRandomDelay();
         setTimeout(() => sendMessage("~dispense"), x);
@@ -130,6 +138,10 @@ async function alts(ACCOUNT_TOKEN, CHANNEL_ID) {
 
         x += getRandomDelay() + 3000;
         setTimeout(() => sendMessage(`~rollback intel ${intel}`), x);
+        x += getRandomDelay() + 3000;
+        setTimeout(() => sendMessage(`~rollback endur ${endur}`), x);
+        x += getRandomDelay() + 3000;
+        setTimeout(() => sendMessage(`~rollback agil ${agil}`), x);
         x += getRandomDelay() + 3000;
         setTimeout(() => sendMessage(`~rollback endur ${endur}`), x);
         x += getRandomDelay() + 3000;
@@ -171,6 +183,10 @@ async function alts(ACCOUNT_TOKEN, CHANNEL_ID) {
 
         x += getRandomDelay() + 3000;
         setTimeout(() => sendMessage(`~rollback intel ${intel}`), x);
+        x += getRandomDelay() + 3000;
+        setTimeout(() => sendMessage(`~rollback endur ${endur}`), x);
+        x += getRandomDelay() + 3000;
+        setTimeout(() => sendMessage(`~rollback agil ${agil}`), x);
         x += getRandomDelay() + 3000;
         setTimeout(() => sendMessage(`~rollback endur ${endur}`), x);
         x += getRandomDelay() + 3000;
