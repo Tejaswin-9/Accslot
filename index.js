@@ -8,7 +8,7 @@ async function alts(ACCOUNT_TOKEN, CHANNEL_ID) {
     // Centralized values for intel, energy, and endur
     let intel = 236;
     let energy = 264;
-    let endur = 45;
+    let endur = 16;
     let agil = 16;
     let potency = 33;
     let efficiency = 297;
